@@ -454,3 +454,8 @@ map.on('load', () => {
         }
     });
 });
+
+const geolocationControl = new maplibregl.GeolocateControl({
+    trackUserLocation: true,
+})
+map.addControl(geolocationControl, 'bottom-right');
