@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "maplibre-gl": "^4.7.0",
+    "maplibre-gl-opacity": "^1.7.0"
   }
 }
